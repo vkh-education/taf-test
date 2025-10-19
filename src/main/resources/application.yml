@@ -1,0 +1,10 @@
+url:
+  loginPage: https://www.vmedia.ca/en/login
+  feedbackPage: https://www.example.com/feedback
+
+logging:
+  level:
+    org.springframework.web: WARN
+    com.datastax.astra: INFO
+    root: WARN
+
