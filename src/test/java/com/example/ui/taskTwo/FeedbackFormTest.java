@@ -3,11 +3,13 @@ package com.example.ui.taskTwo;
 import com.example.pages.FeedbackPage;
 import com.example.ui.BaseUiTest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+@SpringBootTest
 public class FeedbackFormTest extends BaseUiTest {
 
     @Autowired

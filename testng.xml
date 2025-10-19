@@ -4,15 +4,9 @@
 
     <!-- UI Test Suite -->
     <test name="UI Tests" preserve-order="true">
-        <packages>
-            <package name="com.example.ui"/>
-        </packages>
-    </test>
-
-    <!-- API Test Suite -->
-    <test name="API Tests" preserve-order="true">
         <classes>
-            <class name="com.example.api.SampleAPITest"/>
+            <class name="com.example.ui.taskOne.LoginTest"/>
+            <class name="com.example.ui.taskTwo.FeedbackFormTest"/>
         </classes>
     </test>
 

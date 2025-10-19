@@ -1,18 +1,18 @@
 package com.example.ui.taskOne;
 
-import com.codeborne.selenide.Selenide;
 import com.example.pages.HomePage;
 import com.example.pages.LoginPage;
 import com.example.ui.BaseUiTest;
 import com.example.utilities.SecretsReader;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+@SpringBootTest
 public class LoginTest extends BaseUiTest {
 
     @Autowired

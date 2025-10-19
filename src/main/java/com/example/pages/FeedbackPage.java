@@ -4,11 +4,13 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.$;
 
+@Component
 public class FeedbackPage implements IPage{
 
     private SelenideElement nameField = $("#name");
